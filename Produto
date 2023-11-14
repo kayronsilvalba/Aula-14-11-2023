@@ -1,0 +1,19 @@
+public class Produto{
+    
+    //define etributos
+    Double preco;
+    String nome;
+    
+    //cria metodo
+    void informarNome(){
+        System.out.println("O nome do produto é: "+ nome);
+    }
+    
+    void informarPreco(){
+        System.out.println("O preço do produto é: "+ preco);
+    }
+    
+    void fazerPromocao(){
+        preco = preco - 1;
+    }
+}   
